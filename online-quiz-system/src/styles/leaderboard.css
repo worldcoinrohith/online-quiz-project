@@ -1,0 +1,42 @@
+.leaderboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .player-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .leaderboard-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  

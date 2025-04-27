@@ -1,0 +1,36 @@
+.game-room {
+    text-align: center;
+    color: white;
+  }
+  
+  .timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: yellow;
+    margin: 10px 0;
+  }
+  
+  .options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .options button.correct {
+    background: green;
+    color: white;
+  }
+  
+  .options button.incorrect {
+    background: red;
+    color: white;
+  }
+  
+  .options button.disabled {
+    background: gray;
+  }
+  

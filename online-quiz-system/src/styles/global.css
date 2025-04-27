@@ -1,0 +1,48 @@
+/* Global Styles */
+body {
+    background-color: #0c0c1d;  /* Dark theme */
+    color: white;               /* White text for readability */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Quiz Container */
+  .quiz-container {
+    background: #1a1a2e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Answer Styling */
+  .answers .answer {
+    background: #8b2be2;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .answers .answer:hover {
+    background: #6a1bb5;
+  }
+  

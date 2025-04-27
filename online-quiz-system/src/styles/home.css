@@ -1,0 +1,14 @@
+.home-container {
+    text-align: center;
+    color: white;
+    padding: 50px;
+  }
+  .start-btn, .leaderboard-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background: purple;
+    text-decoration: none;
+    border-radius: 5px;
+  }

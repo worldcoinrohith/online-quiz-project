@@ -1,0 +1,85 @@
+/* 🎨 General Lobby Styling */
+.lobby-container {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* 🟣 Create Game Button */
+  .lobby-container button {
+    background: #6a0dad;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .lobby-container button:hover {
+    background: #520d9c;
+  }
+  
+  /* 🔥 Lobby Cards */
+  .lobby-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .lobby-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* ✨ Host Name */
+  .lobby-item strong {
+    color: #ffcc00;
+    font-size: 18px;
+  }
+  
+  /* 🚀 Join Button */
+  .lobby-item button {
+    background: #ff5500;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .lobby-item button:hover {
+    background: #cc4400;
+  }
+  
+  /* 📱 Responsive */
+  @media (max-width: 600px) {
+    .lobby-container {
+      padding: 15px;
+    }
+    
+    .lobby-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .lobby-item button {
+      margin-top: 10px;
+    }
+  }
+  
